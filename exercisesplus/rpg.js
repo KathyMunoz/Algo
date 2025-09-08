@@ -2,19 +2,25 @@
 // Un personnage sera représenté par un nom, un nombre de points de vie, un nombre de points de mana, une force
 
 // 1) Comment faire pour stocker toutes ces informations dans une seule variable ?
-let arr = [nomPersonnage,nombreDePointsDeVie,]
+let arr = [nomPersonnage,nombreDePointsDeVie,nombreDePointsDeMana,uneForce]
 
-
+let NAME = 0;
+let PV = 1;
+let MANA = 2;
+let FORCE = 3;
 // 2) Créer une variable firstPlayer et stocker dedans le personnage "Nico Minoru" qui a 50 points de vie, 100 points de mana, et 10 de force.
+let firstPlayer = [NicoMinoru, 50, 100, 10];
 
 
 // 3) Créer une variable secondPlayer et stocker dedans le personnage "Spiderman" qui a 120 points de vie, 0 point de mana, et 50 de force.
+let secondPlayer = [Spiderman, 120, 0, 50];
 
 // 4) Donner 25 points de vie supplémentaires au premier personnage.
+firstPlayer [PV] += 25; 
 
 // 5) Créer une fonction displayInfo qui reçoit un personnage en entrée et qui affiche dans la console un message à propos de ce personnage (cf en dessous de la fonction).
 function displayInfo(player) {
-	
+	console.log(arr);
 }
 
 // Par exemple, 
